@@ -1,0 +1,155 @@
+	.contenedor .menu_nav a::after {
+		content: "";
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		width: 0;
+		height: 3px;
+		background-color: white;
+		transition: width 0.3s ease;
+	}
+
+	.contenedor .menu_nav a:hover::after {
+		width: 300px;
+		
+	}
+	.contenedor .menu_nav a:hover {
+		text-shadow: 0 0 10px white;
+		filter: brightness(150%);
+	}
+	
+
+	.contenedor .menu_nav a:not(:hover) {
+		filter: grayscale(100%);
+	}
+
+	.contenedor .menu_nav:hover a {
+		filter: none;
+	}
+
+
+
+.notification {
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, 50%);
+  width: max-content;
+  padding: 15px 15px;
+  border-radius: 4px;
+  background-color: #141619;
+  color: #f6f5f9;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-in 4s linear forwards;
+}
+.notification__progress {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	width: calc(100% - 10px);
+	height: 3px;
+	transform: scaleX(0);
+	transform-origin: left;
+	background-image: linear-gradient(to right, #539bdb, #3250bf);
+	border-radius: inherit;
+	animation: load 3s 0.25s linear forwards;
+}
+@keyframes fade-in {
+	5% {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
+	90% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes load {
+	to {
+		transform: scaleX(1);
+	}
+}		  
+		 
+
+  .menu_iconos a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease; 
+}
+
+.menu_iconos a:hover {
+  color: blue; 
+  text-shadow: 0 0 5px blue;
+  transform: translateY(-5px);
+}
+    
+
+.contenedor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	
+    background-color: rgba(0, 0, 0, 0.9);
+	overflow-x: auto
+}
+.contenedor2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal2{
+    background-color:#F4F4F4;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    width: 50%;
+    margin: 50px auto;
+}
+.modal3{
+    background-color:#F4F4F4;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    width: 40%;
+    margin: 50px auto;
+}
+.close{
+    
+    float: right;
+}
+.contenido{
+    padding: 10px;
+    text-align: center;
+}
+.botoncito{
+    width:150px;
+    height: 40px;
+    background-color:#15b800; 
+    color:white; font-size:18px; 
+    border-radius: 5px 5px 5px 5px;
+}
+.cancelar{
+    width:150px;
+    height: 40px;
+    background-color:#FF0000; 
+    color:white; font-size:18px; 
+    border-radius: 5px 5px 5px 5px;
+}
+.botoncito2{
+    width:150px;
+    height: 30px;
+    background-color:blue; 
+    color:white; font-size:18px; 
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+

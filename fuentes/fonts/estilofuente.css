@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'ABitEmpty';
+  src: url('fuente/a_bit_empty/ABitEmpty.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.titulo1{
+  font-family: 'ABitEmpty';
+  front-style: normal;
+  font-weight: 400;	
+}
+
+@font-face {
+  font-family: 'aBigDeal';
+  src: url('fuente/a_big_deal/aBigDeal.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.titulo2{
+  font-family: 'aBigDeal';
+  front-style: normal;
+  font-weight: 400;	
+}

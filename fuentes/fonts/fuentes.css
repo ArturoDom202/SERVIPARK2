@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: 'ABitEmpty';
+	src:url("fuente/a_bit_empty/ABitEmpty.ttf");
+	font-style:normal;
+	font-weight: normal;
+}
+
+.titulo1{
+	font-family: 'ABitEmpty';
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face{
+	font-family: 'aBigDeal';
+	src:url("fuente/a_big_deal/aBigDeal.ttf");
+	font-style:normal;
+	font-weight: normal;
+}
+
+.titulo2{
+	font-family: 'aBigDeal';
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: 'aAtomicMd';
+	src:url("fuente/a_atomic_md/aAtomicMd.ttf");
+	font-style:normal;
+	font-weight: normal;
+}
+
+.titulo3{
+	font-family: 'aAtomicMd';
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
